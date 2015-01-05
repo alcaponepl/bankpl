@@ -1,0 +1,4 @@
+ 1) Error:
+ClientTest#test_to_s:
+ActiveRecord::StatementInvalid: SQLite3::ConstraintException: NOT NULL constraint failed: accounts.client_id: INSERT INTO "accounts" ("client_id", "number", "balance", "created_at", "updated_at", "id") VALUES (NULL, 1, 1, '2015-01-05 15:16:34', '2015-01-05 15:16:34', 980190962)
+
